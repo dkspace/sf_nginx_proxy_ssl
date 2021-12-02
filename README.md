@@ -37,7 +37,7 @@ Locality Name (eg, city) [Default City]:SPb
 Organization Name (eg, company) [Default Company Ltd]:home
 Organizational Unit Name (eg, section) []:home
 Common Name (eg, your name or your server's hostname) []:myartifactory.net
-Email Address []:dkspace@mail.ru
+Email Address []:xxxxxx@mail.ru
 
 
 # Configuration files should be prepared in advance
