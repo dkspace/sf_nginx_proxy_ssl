@@ -13,6 +13,8 @@ To configure access to Artifactory over ssl via nginx proxy
 # we can generate self sined sertificate like below 
 #openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/pki/nginx/private/nginx-01.key -out /etc/pki/nginx/nginx-01.crt -config req.conf
 
+mkdir SAN
+cd SAN
 
 #For trusted chain with root CA key and Certificates:
 >openssl genrsa -out rootCAKey.pem 2048
